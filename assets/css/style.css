@@ -206,7 +206,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--blue);}
     background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
-    height:800px;
+    height:600px;
 }
 .welcome-hero:before{
     position:absolute;
@@ -252,6 +252,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--blue);}
     transition: 0.3s linear;
 }
 .header-text a:hover{ box-shadow: 0 5px 20px rgba(0,0,0,.4);background:var(--blue);border: 1px solid var(--blue);}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container .btn-group {
+    display: none;
+}
+
 /*.header-text-area*/
 
 /*-------------------------------------
