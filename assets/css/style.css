@@ -294,7 +294,13 @@ nav.navbar.bootsnav .navbar-toggle i{color: var(--blue);}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{
+    position: relative;
+    box-shadow: 0 5px 20px rgba(14,25,80,.30);
+    max-width: 100%;
+    height: auto;
+
+}
 .single-about-img:before {
     position:  absolute;
     content: " ";
